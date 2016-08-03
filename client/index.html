@@ -12,13 +12,13 @@
   <body ng-app="app" ng-controller="appController as appCtrl">
     <div class="container">
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-5">
           <input type="text" class="form-control" placeholder="Enter filter (e.g. mammal)" ng-model="appCtrl.animalTypeFilter">
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-2">
           <input type="button" class="btn btn-primary" value="Get Animals" ng-click="appCtrl.getAnimals()">
         </div>
-        <div class="col-xs-2">
+        <div class="col-xs-5">
           <label>{{appCtrl.animalNames}}</label>
         </div>
       </div>

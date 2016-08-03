@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/szokodiakos/fullstack-basic-example#readme",
   "dependencies": {
+    "boom": "^3.2.2",
     "express": "^4.14.0"
   }
 }

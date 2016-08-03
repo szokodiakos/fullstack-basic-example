@@ -26,8 +26,10 @@
 
             vm.animalNames = animalNames.join(', ');
           })
-          .catch(function(err) {
-            console.log(err);
+          .catch(function(res) {
+            console.log(res);
+            var errorMessage = res.data.message;
+            vm.animalNames = 'Error: ' + errorMessage;
           });
       }
     });
